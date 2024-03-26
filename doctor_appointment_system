@@ -1,0 +1,46 @@
+  class doctor{
+    private string name;
+    private string specialization;
+    private List<localDate> avaliability;
+
+    public doctor(string name, string specialization ){
+        this.name = name;
+        this.specialization= specialization;
+
+    }
+    //getter setter 
+    private string getname(){
+        return name;
+    }
+    private string setname(string name){
+        this.name = name;
+    }
+
+    private string getspecialization(){
+        return specialization;
+    }
+
+    private string setspecialization(){
+        this.specialization = specialization;
+    }
+
+    private  List<LocalDateTime>getavaliability(){
+        return avaliability;
+    }
+
+    private List<LocalDateTime>setavaliability(){
+        this.avaliability = avaliability;
+    }
+  }
+
+  class patient{
+    private string name;
+    private int age;
+    private string contactno;
+
+    public patient(string name , int age , string contactno ){
+        this.name = name;
+        this.age
+
+    }
+  }
